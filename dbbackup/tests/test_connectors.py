@@ -5,7 +5,7 @@ from mock import patch, mock_open
 from tempfile import SpooledTemporaryFile
 
 from django.test import TestCase
-from django.utils.six import BytesIO
+from six import BytesIO
 
 from dbbackup.db.base import get_connector, BaseDBConnector, BaseCommandDBConnector
 from dbbackup.db import exceptions

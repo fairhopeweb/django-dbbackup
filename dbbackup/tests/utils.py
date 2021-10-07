@@ -1,7 +1,8 @@
 import os
 import subprocess
 from django.conf import settings
-from django.utils import six, timezone
+from django.utils import timezone
+import six
 from django.core.files import File
 from django.core.files.storage import Storage
 from dbbackup.db.base import get_connector

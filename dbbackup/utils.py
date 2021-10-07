@@ -18,7 +18,8 @@ from datetime import datetime
 from django.core.mail import EmailMultiAlternatives
 from django.db import connection
 from django.http import HttpRequest
-from django.utils import six, timezone
+from django.utils import timezone
+import six
 
 from . import settings
 
